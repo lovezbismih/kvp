@@ -13,8 +13,9 @@
   </header>
   <nav>
     <ul>
-      <li><a href="#tools">我的</a></li>
+      <li><a href="#my">我的</a></li>
       <li><a href="#tools">实用工具</a></li>
+      <li><a href="#aosp">AOSP</a></li>
     </ul>
   </nav>
   <main>
@@ -26,6 +27,10 @@
       <h2 class="category-title">实用工具</h2>
       <div class="link-grid"></div>
     </section>
+    <section id="aosp">
+      <h2 class="category-title">AOSP</h2>
+      <div class="link-grid"></div>
+    </section>
   </main>
   <div id="edit-form" style="display: none;">
     <h2>添加/编辑链接</h2>
@@ -33,8 +38,9 @@
       <input type="password" id="edit-password" name="edit_password" placeholder="编辑密码" required>
       <select id="category" name="category" required>
         <option value="">选择类别</option>
-        <option value="tools">我的</option>
+        <option value="my">我的</option>
         <option value="tools">实用工具</option>
+        <option value="aosp">AOSP</option>
       </select>
       <input type="text" id="title" name="title" placeholder="标题" required>
       <input type="url" id="url" name="url" placeholder="URL" required>
