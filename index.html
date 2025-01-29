@@ -13,10 +13,15 @@
   </header>
   <nav>
     <ul>
+      <li><a href="#tools">我的</a></li>
       <li><a href="#tools">实用工具</a></li>
     </ul>
   </nav>
   <main>
+     <section id="my">
+      <h2 class="category-title"我的</h2>
+      <div class="link-grid"></div>
+    </section>
     <section id="tools">
       <h2 class="category-title">实用工具</h2>
       <div class="link-grid"></div>
@@ -28,6 +33,7 @@
       <input type="password" id="edit-password" name="edit_password" placeholder="编辑密码" required>
       <select id="category" name="category" required>
         <option value="">选择类别</option>
+        <option value="tools">我的</option>
         <option value="tools">实用工具</option>
       </select>
       <input type="text" id="title" name="title" placeholder="标题" required>
